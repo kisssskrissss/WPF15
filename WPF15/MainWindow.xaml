@@ -1,0 +1,124 @@
+﻿<Window x:Class="WPF15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1000">
+
+    <Grid        Background="Bisque">
+
+        <FlowDocumentScrollViewer> 
+            <FlowDocument>
+                <Paragraph FontSize="22">
+                    Виды попугаев 
+                </Paragraph>
+                <Paragraph>
+                    Красивые экзотические птицы поражают своим острым умом, сообразительностью и коммуникабельностью. На свете существует –
+                    <Hyperlink NavigateUri="https://ethnomir.ru/articles/vidy-popugaev/" >много видов попугаев</Hyperlink>
+                    и наибольшую популярность обрели самые способные к звукоподражанию пернатые.
+                </Paragraph>
+                <List MarkerStyle="Square">
+                    <ListItem>
+                        <Paragraph FontSize="18" FontStyle="Italic">
+                        Волнистый попугай </Paragraph>
+                       
+
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph FontSize="18" FontStyle="Italic">
+                            Жако</Paragraph>
+                       
+
+                    </ListItem>
+                    <ListItem >
+                        <Paragraph FontSize="18" FontStyle="Italic">
+                            Неразлучники</Paragraph>
+                        
+                    </ListItem>
+                    <ListItem >
+                        <Paragraph FontSize="18" FontStyle="Italic">
+                            Ара</Paragraph>
+           
+                    </ListItem>
+                </List>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    Фото  
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                   <Image Source="волн.jpeg" Width="400"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    Маленькие юркие птички – один из самых легко обучаемых видов попугаев, поэтому их часто заводят в качестве домашних питомцев. В дикой природе – в Австралии – с ветки на ветку перелетают салатовые птицы, но труды генетиков подарили миру множество вариантов окрасов оперения. Практически в любом зоомагазине можно выбрать друга по вкусу – точнее, по цвету. Волнистых попугайчиков ценят за неприхотливость и общительность – чисто «заговорить» способна не каждая птичка, но при должном обучении они быстро осваивают звукоподражание и учатся трюкам.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    <Image Source="жако.jpg" Width="400"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    Те, кто хотят вести с питомцем долгие беседы и хвастаться умной птицей перед знакомыми, обычно заводят жако. Эти попугаи в звукоподражании достигли небывалых высот, а если верить исследованиям, их интеллект сопоставим с разумом маленького ребёнка! Болтуны усваивают большое количество слов и даже способны употреблять их к месту и с соответствующей интонацией. Разумеется, для комфортного психологического состояния умной птицы с ней придётся проводить очень много времени – постоянно общаться и играть, ведь от дефицита внимания жако начинает замыкаться в себе и страдать. Но владельцы уверяют, что усилия воздаются сторицей, и у них появляется замечательный чуткий друг, всегда готовый приободрить парой смешных фраз.
+
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    <Image Source="Неразлучники.jpg" Width="400"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    Считается, что эти попугаи – настоящие романтики, они по-настоящему умеют хранить верность. Двум неразлучникам достаточно общения друг с другом, и хозяина они воспринимают исключительно как источник пропитания и уборки клетки. Но одинокий попугай будет требовать внимания или развлекать себя самостоятельно с соответствующими последствиями – например, проверять возможности своего клюва. А держать эту птицу – как и остальные виды попугаев – всё время в клетке нельзя: она одичает и будет болеть. Разговорчивости от неразлучника ожидать не стоит – они могут научиться произносить разве что несколько слов, да и их не станут употреблять часто.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    <Image Source="ара.jpg" Width="400"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="16">
+                                    Большой и яркий ара – один из самых красивых экзотических пернатых. На воле эти попугаи обитают в тропических лесах Южной Америки, но вид находится под угрозой, поскольку они долго готовятся к размножению, а за это время случиться может всякое. В неволе ара быстро привыкают к человеку, но держать такую птицу под силу не каждому. Во-первых, попугаю требуется большое пространство – это касается и вольера, и помещения. Во-вторых, с ним нужно искать общий язык. Птица обладает скверным характером, не прощает обидчиков и может нанести травму крупным клювом. И дружба с человеком напрямую зависит от поведения и заботы последнего.
+
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    <InlineUIContainer/>
+                    <InlineUIContainer>
+                    </InlineUIContainer>
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
